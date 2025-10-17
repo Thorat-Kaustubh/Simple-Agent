@@ -1,10 +1,8 @@
-**🤖 Dynamic Conversational Agent with Streamlit and Gemini**
+**🤖 Dynamic Conversational Agent with Streamlit and Gemini:**
 
 This repository contains the code for a sophisticated conversational agent built with Python, Streamlit, and Google's Gemini API. The agent is designed to be context-aware, capable of understanding user intent, and can provide both structured data and executable code with detailed explanations.
 
-Note: You will need to replace the placeholder image above with a screenshot of your running application.
-
-**✨ Key Features**
+**✨ Key Features:**
 
 Intelligent Intent Detection: The agent automatically determines if a user is asking for information or requesting a code snippet.
 
@@ -18,7 +16,7 @@ High-Performance Async Backend: The agent's logic is built with Python's asyncio
 
 Polished User Interface: The frontend, built with Streamlit, is clean, modern, and features a card-based layout for a professional user experience.
 
-**🛠️ Tech Stack**
+**🛠️ Tech Stack:**
 
 Frontend: Streamlit
 
@@ -26,11 +24,11 @@ Backend & AI Logic: Python, asyncio
 
 Language Model: Google Gemini API (gemini-2.5-flash-preview-05-20)
 
-**🚀 Getting Started**
+**🚀 Getting Started:**
 
 Follow these instructions to get a copy of the project up and running on your local machine.
 
-Prerequisites
+**Prerequisites**
 
 Python 3.8 or higher
 
@@ -45,8 +43,7 @@ git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://gi
 cd YOUR_REPOSITORY_NAME
 
 
-**Create and activate a virtual environment:**
-
+****Create and activate a virtual environment:**
 # For macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
@@ -56,7 +53,7 @@ python -m venv venv
 .\venv\Scripts\activate
 
 
-Install the required packages:
+**Install the required packages:**
 
 pip install -r requirements.txt
 
@@ -73,6 +70,7 @@ GEMINI_API_KEY = "YOUR_API_KEY_HERE"
 
 
 **Run the application:**
+
 streamlit run app.py
 
 
