@@ -19,6 +19,7 @@ High-Performance Async Backend: The agent's logic is built with Python's asyncio
 Polished User Interface: The frontend, built with Streamlit, is clean, modern, and features a card-based layout for a professional user experience.
 
 **🛠️ Tech Stack**
+
 Frontend: Streamlit
 
 Backend & AI Logic: Python, asyncio
@@ -40,6 +41,7 @@ Installation & Setup
 **Clone the repository:**
 
 git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+
 cd YOUR_REPOSITORY_NAME
 
 
@@ -59,7 +61,7 @@ Install the required packages:
 pip install -r requirements.txt
 
 
-Set up your API Key:
+**Set up your API Key:**
 
 Create a folder named .streamlit in the root of your project directory.
 
