@@ -1,85 +1,77 @@
-**🤖 Dynamic Conversational Agent with Streamlit and Gemini:**
+<h1 align="center">🤖 Dynamic Conversational Agent with Streamlit & Gemini</h1>
 
-This repository contains the code for a sophisticated conversational agent built with Python, Streamlit, and Google's Gemini API. The agent is designed to be context-aware, capable of understanding user intent, and can provide both structured data and executable code with detailed explanations.
+<p align="center">
+  <img src="images/banner.png" alt="Conversational Agent Banner" width="700">
+</p>
 
-**✨ Key Features:**
+<p align="center">
+  <b>A context-aware conversational AI built using Python, Streamlit, and Google’s Gemini API.</b><br>
+  Delivers intelligent dialogue, dynamic code generation, and a seamless user experience.
+</p>
 
-Intelligent Intent Detection: The agent automatically determines if a user is asking for information or requesting a code snippet.
+---
 
-Context-Aware Responses: It remembers the last few messages in a conversation, allowing for natural follow-up questions (e.g., "explain the code you just gave me").
+## ✨ Overview
 
-Code Generation with Explanations: When asked to generate code, the agent provides a formatted code block along with a clear, concept-by-concept explanation.
+This repository hosts a **dynamic conversational agent** that leverages the power of **Google’s Gemini API** to deliver human-like, context-aware conversations.  
+Built with **Streamlit** for an elegant UI and **Python asyncio** for performance, the agent seamlessly handles both **information queries** and **code generation requests**, complete with detailed explanations.
 
-Structured Data Output: For informational queries, the agent responds with well-structured JSON, which is then formatted for easy reading.
+---
 
-High-Performance Async Backend: The agent's logic is built with Python's asyncio to ensure fast and non-blocking responses.
+## 🔑 Key Features
 
-Polished User Interface: The frontend, built with Streamlit, is clean, modern, and features a card-based layout for a professional user experience.
+- 🧠 **Intelligent Intent Detection**  
+  Automatically distinguishes between informational queries and code generation requests.
 
-**🛠️ Tech Stack:**
+- 💬 **Context-Aware Conversations**  
+  Remembers previous exchanges, enabling natural follow-up questions (e.g., “Explain the code you just gave me”).
 
-Frontend: Streamlit
+- 💻 **Code Generation with Explanations**  
+  Produces executable, well-formatted code blocks along with step-by-step explanations.
 
-Backend & AI Logic: Python, asyncio
+- 📊 **Structured Data Output**  
+  Returns neatly formatted JSON responses for factual queries.
 
-Language Model: Google Gemini API (gemini-2.5-flash-preview-05-20)
+- ⚡ **High-Performance Async Backend**  
+  Uses Python’s `asyncio` for fast, non-blocking processing.
 
-**Sample Output:**
-![Simple Agent](screenshot(1).png)
+- 🎨 **Modern Streamlit UI**  
+  A polished, card-based interface designed for clarity and ease of use.
 
+---
 
+## 🛠️ Tech Stack
 
-![Simple Agent](screenshot(2).png)
+| Layer | Technology |
+|--------|-------------|
+| **Frontend** | Streamlit |
+| **Backend & Logic** | Python, asyncio |
+| **Language Model** | Google Gemini API *(gemini-2.5-flash-preview-05-20)* |
 
+---
 
-**🚀 Getting Started:**
+## 🖼️ Sample Output
 
-Follow these instructions to get a copy of the project up and running on your local machine.
+<p align="center">
+  <img src="screenshot(1).png" alt="Agent UI Screenshot 1" width="600"><br><br>
+  <img src="screenshot(2).png" alt="Agent UI Screenshot 2" width="600">
+</p>
 
-**Prerequisites**
+---
 
-Python 3.8 or higher
+## 🚀 Getting Started
 
-A Google Gemini API Key
+Follow these steps to run the application locally.
 
-Installation & Setup
+### 🧩 Prerequisites
+- Python **3.8+**
+- A valid **Google Gemini API Key**
 
-**Clone the repository:**
+---
 
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+### 🧰 Installation & Setup
 
+#### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
 cd YOUR_REPOSITORY_NAME
-
-
-****Create and activate a virtual environment:**
-# For macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
-
-# For Windows
-python -m venv venv
-.\venv\Scripts\activate
-
-
-**Install the required packages:**
-
-pip install -r requirements.txt
-
-
-**Set up your API Key:**
-
-Create a folder named .streamlit in the root of your project directory.
-
-Inside the .streamlit folder, create a new file named secrets.toml.
-
-Add your Gemini API key to the secrets.toml file like this:
-
-GEMINI_API_KEY = "YOUR_API_KEY_HERE"
-
-
-**Run the application:**
-
-streamlit run app.py
-
-
-The application should now be running in your web browser!
