@@ -24,6 +24,12 @@ Backend & AI Logic: Python, asyncio
 
 Language Model: Google Gemini API (gemini-2.5-flash-preview-05-20)
 
+**Sample Output:**
+assets/screenshot(1)
+
+assets/screenshot(2)
+
+
 **🚀 Getting Started:**
 
 Follow these instructions to get a copy of the project up and running on your local machine.
