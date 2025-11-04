@@ -1,8 +1,5 @@
 <h1 align="center">🤖 Dynamic Conversational Agent with Streamlit & Gemini</h1>
 
-<p align="center">
-  <img src="images/banner.png" alt="Conversational Agent Banner" width="700">
-</p>
 
 <p align="center">
   <b>A context-aware conversational AI built using Python, Streamlit, and Google’s Gemini API.</b><br>
